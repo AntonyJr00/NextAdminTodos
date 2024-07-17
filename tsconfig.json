@@ -18,7 +18,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@app/*": ["./src/app/*"],
+      "@components/*": ["./src/components/*"],
+      "@products/*": ["./src/products/*"],
+      "@shopping-cart/*": ["./src/shopping-cart/*"],
+      "@todos/*": ["./src/todos/*"],
+      "@auth/*": ["./src/auth/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
